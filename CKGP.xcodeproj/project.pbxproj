@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3828AF7D7E1CDAEF8F83C395 /* libPods-CKGP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF590D48CDACB1D7912478EC /* libPods-CKGP.a */; };
+		651608E294DF3BC1B3ACCC68 /* libPods-CKGPTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B91AEAD9766D454B8E5D8F4 /* libPods-CKGPTests.a */; };
+		76B19F6BCFD575A87A65E6F2 /* libPods-CKGPUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA004ADA8C0AA5B098606FF1 /* libPods-CKGPUITests.a */; };
+		A302EDD31C8A80C700AC4072 /* raceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A302EDD21C8A80C700AC4072 /* raceCell.swift */; };
+		A31C931B1C866A6F007F6107 /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31C931A1C866A6F007F6107 /* CheckViewController.swift */; };
+		A31C931D1C866A80007F6107 /* RacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31C931C1C866A80007F6107 /* RacesViewController.swift */; };
+		A3335B601DDD398600CFA5B7 /* postUserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3335B5F1DDD398600CFA5B7 /* postUserTest.swift */; };
+		A3335B621DDD460100CFA5B7 /* newCheckedPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3335B611DDD460100CFA5B7 /* newCheckedPerson.swift */; };
+		A34A2AA71CDFB4C100631BAE /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34A2AA61CDFB4C100631BAE /* Request.swift */; };
+		A34A2AA91CE4308100631BAE /* checkedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34A2AA81CE4308100631BAE /* checkedCell.swift */; };
+		A3C723F61CBDB89900C7E489 /* AlreadyCheckedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C723F51CBDB89900C7E489 /* AlreadyCheckedInViewController.swift */; };
+		A3C723F81CC29D2000C7E489 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C723F71CC29D2000C7E489 /* Token.swift */; };
+		A3E4C1DD1CA204C9003CBDE9 /* raceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E4C1DC1CA204C9003CBDE9 /* raceObject.swift */; };
+		A3E4C1DF1CA20528003CBDE9 /* checkedPersonObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E4C1DE1CA20528003CBDE9 /* checkedPersonObject.swift */; };
 		A3EFABA01C8118C000CBA48D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EFAB9F1C8118C000CBA48D /* AppDelegate.swift */; };
-		A3EFABA21C8118C000CBA48D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EFABA11C8118C000CBA48D /* ViewController.swift */; };
+		A3EFABA21C8118C000CBA48D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EFABA11C8118C000CBA48D /* AboutViewController.swift */; };
 		A3EFABA51C8118C000CBA48D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EFABA31C8118C000CBA48D /* Main.storyboard */; };
 		A3EFABA71C8118C000CBA48D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3EFABA61C8118C000CBA48D /* Assets.xcassets */; };
 		A3EFABAA1C8118C000CBA48D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EFABA81C8118C000CBA48D /* LaunchScreen.storyboard */; };
 		A3EFABB51C8118C000CBA48D /* CKGPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EFABB41C8118C000CBA48D /* CKGPTests.swift */; };
 		A3EFABC01C8118C000CBA48D /* CKGPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EFABBF1C8118C000CBA48D /* CKGPUITests.swift */; };
+		A3EFABCE1C811E6400CBA48D /* CKGPLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A3EFABCD1C811E6300CBA48D /* CKGPLogo.png */; };
+		A3FCBFEF1CC991620097E4AD /* TokenUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FCBFEE1CC991620097E4AD /* TokenUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +50,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B91AEAD9766D454B8E5D8F4 /* libPods-CKGPTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CKGPTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB746C9DA4487663C64034C /* Pods-CKGP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKGP.release.xcconfig"; path = "Pods/Target Support Files/Pods-CKGP/Pods-CKGP.release.xcconfig"; sourceTree = "<group>"; };
+		91F8802EC5F27B899BB80D97 /* Pods-CKGPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKGPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CKGPUITests/Pods-CKGPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		92915CAAD3620BD6D2472D6D /* Pods-CKGPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKGPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CKGPUITests/Pods-CKGPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A302EDD21C8A80C700AC4072 /* raceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = raceCell.swift; sourceTree = "<group>"; };
+		A30F96761DA95FE900CA6C64 /* RKObjectManager+PutQueryParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RKObjectManager+PutQueryParams.h"; sourceTree = "<group>"; };
+		A30F96771DA95FE900CA6C64 /* RKObjectManager+PutQueryParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RKObjectManager+PutQueryParams.m"; sourceTree = "<group>"; };
+		A31C931A1C866A6F007F6107 /* CheckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
+		A31C931C1C866A80007F6107 /* RacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RacesViewController.swift; sourceTree = "<group>"; };
+		A3335B5F1DDD398600CFA5B7 /* postUserTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postUserTest.swift; sourceTree = "<group>"; };
+		A3335B611DDD460100CFA5B7 /* newCheckedPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newCheckedPerson.swift; sourceTree = "<group>"; };
+		A34A2AA61CDFB4C100631BAE /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		A34A2AA81CE4308100631BAE /* checkedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkedCell.swift; sourceTree = "<group>"; };
+		A3C723F51CBDB89900C7E489 /* AlreadyCheckedInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlreadyCheckedInViewController.swift; sourceTree = "<group>"; };
+		A3C723F71CC29D2000C7E489 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		A3E4C1D81CA203FC003CBDE9 /* CKGP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CKGP-Bridging-Header.h"; sourceTree = "<group>"; };
+		A3E4C1DC1CA204C9003CBDE9 /* raceObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = raceObject.swift; sourceTree = "<group>"; };
+		A3E4C1DE1CA20528003CBDE9 /* checkedPersonObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkedPersonObject.swift; sourceTree = "<group>"; };
 		A3EFAB9C1C8118C000CBA48D /* CKGP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CKGP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3EFAB9F1C8118C000CBA48D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A3EFABA11C8118C000CBA48D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3EFABA11C8118C000CBA48D /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		A3EFABA41C8118C000CBA48D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3EFABA61C8118C000CBA48D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3EFABA91C8118C000CBA48D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +81,13 @@
 		A3EFABBB1C8118C000CBA48D /* CKGPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CKGPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3EFABBF1C8118C000CBA48D /* CKGPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKGPUITests.swift; sourceTree = "<group>"; };
 		A3EFABC11C8118C000CBA48D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3EFABCD1C811E6300CBA48D /* CKGPLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CKGPLogo.png; sourceTree = "<group>"; };
+		A3FCBFEE1CC991620097E4AD /* TokenUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenUser.swift; sourceTree = "<group>"; };
+		B15C1E34E6B5D8DA0A998279 /* Pods-CKGPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKGPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CKGPTests/Pods-CKGPTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA004ADA8C0AA5B098606FF1 /* libPods-CKGPUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CKGPUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF590D48CDACB1D7912478EC /* libPods-CKGP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CKGP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F243FE5BC75545DF315D7C70 /* Pods-CKGPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKGPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CKGPTests/Pods-CKGPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC24B232CA2F00F8ADA82C23 /* Pods-CKGP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKGP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CKGP/Pods-CKGP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3828AF7D7E1CDAEF8F83C395 /* libPods-CKGP.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				651608E294DF3BC1B3ACCC68 /* libPods-CKGPTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +111,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B19F6BCFD575A87A65E6F2 /* libPods-CKGPUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3E2454D1D320022007D8E3D /* Checkin Page */ = {
+			isa = PBXGroup;
+			children = (
+				A34A2AA81CE4308100631BAE /* checkedCell.swift */,
+				A31C931A1C866A6F007F6107 /* CheckViewController.swift */,
+				A3335B5F1DDD398600CFA5B7 /* postUserTest.swift */,
+				A3C723F51CBDB89900C7E489 /* AlreadyCheckedInViewController.swift */,
+				A3E4C1DE1CA20528003CBDE9 /* checkedPersonObject.swift */,
+				A3335B611DDD460100CFA5B7 /* newCheckedPerson.swift */,
+			);
+			name = "Checkin Page";
+			sourceTree = "<group>";
+		};
+		A3E2454E1D330FC7007D8E3D /* Races Page */ = {
+			isa = PBXGroup;
+			children = (
+				A302EDD21C8A80C700AC4072 /* raceCell.swift */,
+				A3E4C1DC1CA204C9003CBDE9 /* raceObject.swift */,
+				A31C931C1C866A80007F6107 /* RacesViewController.swift */,
+			);
+			name = "Races Page";
+			sourceTree = "<group>";
+		};
 		A3EFAB931C8118C000CBA48D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +148,8 @@
 				A3EFABB31C8118C000CBA48D /* CKGPTests */,
 				A3EFABBE1C8118C000CBA48D /* CKGPUITests */,
 				A3EFAB9D1C8118C000CBA48D /* Products */,
+				B071230396D1261D0704F268 /* Pods */,
+				A978E19282AF915D6FD634DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +167,20 @@
 			isa = PBXGroup;
 			children = (
 				A3EFAB9F1C8118C000CBA48D /* AppDelegate.swift */,
-				A3EFABA11C8118C000CBA48D /* ViewController.swift */,
+				A3C723F71CC29D2000C7E489 /* Token.swift */,
+				A34A2AA61CDFB4C100631BAE /* Request.swift */,
+				A3EFABA11C8118C000CBA48D /* AboutViewController.swift */,
 				A3EFABA31C8118C000CBA48D /* Main.storyboard */,
+				A3E2454D1D320022007D8E3D /* Checkin Page */,
+				A3E2454E1D330FC7007D8E3D /* Races Page */,
+				A3FCBFEE1CC991620097E4AD /* TokenUser.swift */,
 				A3EFABA61C8118C000CBA48D /* Assets.xcassets */,
 				A3EFABA81C8118C000CBA48D /* LaunchScreen.storyboard */,
 				A3EFABAB1C8118C000CBA48D /* Info.plist */,
+				A30F96761DA95FE900CA6C64 /* RKObjectManager+PutQueryParams.h */,
+				A30F96771DA95FE900CA6C64 /* RKObjectManager+PutQueryParams.m */,
+				A3EFABCD1C811E6300CBA48D /* CKGPLogo.png */,
+				A3E4C1D81CA203FC003CBDE9 /* CKGP-Bridging-Header.h */,
 			);
 			path = CKGP;
 			sourceTree = "<group>";
@@ -125,6 +203,29 @@
 			path = CKGPUITests;
 			sourceTree = "<group>";
 		};
+		A978E19282AF915D6FD634DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF590D48CDACB1D7912478EC /* libPods-CKGP.a */,
+				4B91AEAD9766D454B8E5D8F4 /* libPods-CKGPTests.a */,
+				EA004ADA8C0AA5B098606FF1 /* libPods-CKGPUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B071230396D1261D0704F268 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC24B232CA2F00F8ADA82C23 /* Pods-CKGP.debug.xcconfig */,
+				8EB746C9DA4487663C64034C /* Pods-CKGP.release.xcconfig */,
+				F243FE5BC75545DF315D7C70 /* Pods-CKGPTests.debug.xcconfig */,
+				B15C1E34E6B5D8DA0A998279 /* Pods-CKGPTests.release.xcconfig */,
+				91F8802EC5F27B899BB80D97 /* Pods-CKGPUITests.debug.xcconfig */,
+				92915CAAD3620BD6D2472D6D /* Pods-CKGPUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3EFABC41C8118C000CBA48D /* Build configuration list for PBXNativeTarget "CKGP" */;
 			buildPhases = (
+				E8C715903ED04F96C48202DD /* [CP] Check Pods Manifest.lock */,
 				A3EFAB981C8118C000CBA48D /* Sources */,
 				A3EFAB991C8118C000CBA48D /* Frameworks */,
 				A3EFAB9A1C8118C000CBA48D /* Resources */,
+				BEF659F06A38F2CFC6807743 /* [CP] Embed Pods Frameworks */,
+				DB25850C5CF8D538913B62FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3EFABC71C8118C000CBA48D /* Build configuration list for PBXNativeTarget "CKGPTests" */;
 			buildPhases = (
+				13F226B18C5EF754E2E82A61 /* [CP] Check Pods Manifest.lock */,
 				A3EFABAC1C8118C000CBA48D /* Sources */,
 				A3EFABAD1C8118C000CBA48D /* Frameworks */,
 				A3EFABAE1C8118C000CBA48D /* Resources */,
+				3A0E1498FCB61BC5BA08365D /* [CP] Embed Pods Frameworks */,
+				D68C3C4F625ED9F31205509E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +274,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3EFABCA1C8118C000CBA48D /* Build configuration list for PBXNativeTarget "CKGPUITests" */;
 			buildPhases = (
+				4882A2FFA05E8397E9EF8ACE /* [CP] Check Pods Manifest.lock */,
 				A3EFABB71C8118C000CBA48D /* Sources */,
 				A3EFABB81C8118C000CBA48D /* Frameworks */,
 				A3EFABB91C8118C000CBA48D /* Resources */,
+				BB46ECFBB8A4DCB8B6C99ADD /* [CP] Embed Pods Frameworks */,
+				32A092B6CDA896CFE5B1D565 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,13 +303,17 @@
 				TargetAttributes = {
 					A3EFAB9B1C8118C000CBA48D = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5889U8W69N;
+						LastSwiftMigration = 0800;
 					};
 					A3EFABAF1C8118C000CBA48D = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = A3EFAB9B1C8118C000CBA48D;
 					};
 					A3EFABBA1C8118C000CBA48D = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = A3EFAB9B1C8118C000CBA48D;
 					};
 				};
@@ -230,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3EFABAA1C8118C000CBA48D /* LaunchScreen.storyboard in Resources */,
+				A3EFABCE1C811E6400CBA48D /* CKGPLogo.png in Resources */,
 				A3EFABA71C8118C000CBA48D /* Assets.xcassets in Resources */,
 				A3EFABA51C8118C000CBA48D /* Main.storyboard in Resources */,
 			);
@@ -251,13 +366,163 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13F226B18C5EF754E2E82A61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		32A092B6CDA896CFE5B1D565 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CKGPUITests/Pods-CKGPUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A0E1498FCB61BC5BA08365D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CKGPTests/Pods-CKGPTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4882A2FFA05E8397E9EF8ACE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB46ECFBB8A4DCB8B6C99ADD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CKGPUITests/Pods-CKGPUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEF659F06A38F2CFC6807743 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CKGP/Pods-CKGP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D68C3C4F625ED9F31205509E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CKGPTests/Pods-CKGPTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB25850C5CF8D538913B62FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CKGP/Pods-CKGP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8C715903ED04F96C48202DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A3EFAB981C8118C000CBA48D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3EFABA21C8118C000CBA48D /* ViewController.swift in Sources */,
+				A3FCBFEF1CC991620097E4AD /* TokenUser.swift in Sources */,
+				A3C723F81CC29D2000C7E489 /* Token.swift in Sources */,
+				A31C931B1C866A6F007F6107 /* CheckViewController.swift in Sources */,
+				A302EDD31C8A80C700AC4072 /* raceCell.swift in Sources */,
+				A34A2AA71CDFB4C100631BAE /* Request.swift in Sources */,
+				A3E4C1DF1CA20528003CBDE9 /* checkedPersonObject.swift in Sources */,
+				A31C931D1C866A80007F6107 /* RacesViewController.swift in Sources */,
+				A3335B601DDD398600CFA5B7 /* postUserTest.swift in Sources */,
+				A3335B621DDD460100CFA5B7 /* newCheckedPerson.swift in Sources */,
+				A3EFABA21C8118C000CBA48D /* AboutViewController.swift in Sources */,
 				A3EFABA01C8118C000CBA48D /* AppDelegate.swift in Sources */,
+				A3C723F61CBDB89900C7E489 /* AlreadyCheckedInViewController.swift in Sources */,
+				A3E4C1DD1CA204C9003CBDE9 /* raceObject.swift in Sources */,
+				A34A2AA91CE4308100631BAE /* checkedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,57 +660,74 @@
 		};
 		A3EFABC51C8118C000CBA48D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC24B232CA2F00F8ADA82C23 /* Pods-CKGP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 5889U8W69N;
 				INFOPLIST_FILE = CKGP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.CKGP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CKGP/CKGP-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		A3EFABC61C8118C000CBA48D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EB746C9DA4487663C64034C /* Pods-CKGP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 5889U8W69N;
 				INFOPLIST_FILE = CKGP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.CKGP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CKGP/CKGP-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
 		A3EFABC81C8118C000CBA48D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F243FE5BC75545DF315D7C70 /* Pods-CKGPTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CKGPTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.CKGPTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CKGP.app/CKGP";
 			};
 			name = Debug;
 		};
 		A3EFABC91C8118C000CBA48D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B15C1E34E6B5D8DA0A998279 /* Pods-CKGPTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CKGPTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.CKGPTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CKGP.app/CKGP";
 			};
 			name = Release;
 		};
 		A3EFABCB1C8118C000CBA48D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91F8802EC5F27B899BB80D97 /* Pods-CKGPUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CKGPUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.CKGPUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = CKGP;
 				USES_XCTRUNNER = YES;
 			};
@@ -453,11 +735,13 @@
 		};
 		A3EFABCC1C8118C000CBA48D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92915CAAD3620BD6D2472D6D /* Pods-CKGPUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CKGPUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.CKGPUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = CKGP;
 				USES_XCTRUNNER = YES;
 			};
@@ -482,6 +766,7 @@
 				A3EFABC61C8118C000CBA48D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3EFABC71C8118C000CBA48D /* Build configuration list for PBXNativeTarget "CKGPTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +775,7 @@
 				A3EFABC91C8118C000CBA48D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3EFABCA1C8118C000CBA48D /* Build configuration list for PBXNativeTarget "CKGPUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +784,7 @@
 				A3EFABCC1C8118C000CBA48D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
