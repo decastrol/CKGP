@@ -7,13 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3828AF7D7E1CDAEF8F83C395 /* libPods-CKGP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF590D48CDACB1D7912478EC /* libPods-CKGP.a */; };
-		651608E294DF3BC1B3ACCC68 /* libPods-CKGPTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B91AEAD9766D454B8E5D8F4 /* libPods-CKGPTests.a */; };
-		76B19F6BCFD575A87A65E6F2 /* libPods-CKGPUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA004ADA8C0AA5B098606FF1 /* libPods-CKGPUITests.a */; };
+		4FDD70045C2185A67A11983B /* libPods-CKGPTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 169A49FC7CF6DA0677DA6198 /* libPods-CKGPTests.a */; };
 		A302EDD31C8A80C700AC4072 /* raceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A302EDD21C8A80C700AC4072 /* raceCell.swift */; };
 		A31C931B1C866A6F007F6107 /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31C931A1C866A6F007F6107 /* CheckViewController.swift */; };
 		A31C931D1C866A80007F6107 /* RacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31C931C1C866A80007F6107 /* RacesViewController.swift */; };
-		A3335B601DDD398600CFA5B7 /* postUserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3335B5F1DDD398600CFA5B7 /* postUserTest.swift */; };
 		A3335B621DDD460100CFA5B7 /* newCheckedPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3335B611DDD460100CFA5B7 /* newCheckedPerson.swift */; };
 		A34A2AA71CDFB4C100631BAE /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34A2AA61CDFB4C100631BAE /* Request.swift */; };
 		A34A2AA91CE4308100631BAE /* checkedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34A2AA81CE4308100631BAE /* checkedCell.swift */; };
@@ -30,6 +27,8 @@
 		A3EFABC01C8118C000CBA48D /* CKGPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EFABBF1C8118C000CBA48D /* CKGPUITests.swift */; };
 		A3EFABCE1C811E6400CBA48D /* CKGPLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A3EFABCD1C811E6300CBA48D /* CKGPLogo.png */; };
 		A3FCBFEF1CC991620097E4AD /* TokenUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FCBFEE1CC991620097E4AD /* TokenUser.swift */; };
+		A4DE756E3273B5FB66403A52 /* libPods-CKGP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D05346A106523D23FD3E071B /* libPods-CKGP.a */; };
+		E3B0C7618D0A0ED3BAD25E5A /* libPods-CKGPUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0471554FC69F1B6874FBE9E2 /* libPods-CKGPUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4B91AEAD9766D454B8E5D8F4 /* libPods-CKGPTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CKGPTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0471554FC69F1B6874FBE9E2 /* libPods-CKGPUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CKGPUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		169A49FC7CF6DA0677DA6198 /* libPods-CKGPTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CKGPTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB746C9DA4487663C64034C /* Pods-CKGP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKGP.release.xcconfig"; path = "Pods/Target Support Files/Pods-CKGP/Pods-CKGP.release.xcconfig"; sourceTree = "<group>"; };
 		91F8802EC5F27B899BB80D97 /* Pods-CKGPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKGPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CKGPUITests/Pods-CKGPUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		92915CAAD3620BD6D2472D6D /* Pods-CKGPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKGPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CKGPUITests/Pods-CKGPUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -59,7 +59,6 @@
 		A30F96771DA95FE900CA6C64 /* RKObjectManager+PutQueryParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RKObjectManager+PutQueryParams.m"; sourceTree = "<group>"; };
 		A31C931A1C866A6F007F6107 /* CheckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
 		A31C931C1C866A80007F6107 /* RacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RacesViewController.swift; sourceTree = "<group>"; };
-		A3335B5F1DDD398600CFA5B7 /* postUserTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postUserTest.swift; sourceTree = "<group>"; };
 		A3335B611DDD460100CFA5B7 /* newCheckedPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newCheckedPerson.swift; sourceTree = "<group>"; };
 		A34A2AA61CDFB4C100631BAE /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		A34A2AA81CE4308100631BAE /* checkedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkedCell.swift; sourceTree = "<group>"; };
@@ -84,8 +83,7 @@
 		A3EFABCD1C811E6300CBA48D /* CKGPLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CKGPLogo.png; sourceTree = "<group>"; };
 		A3FCBFEE1CC991620097E4AD /* TokenUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenUser.swift; sourceTree = "<group>"; };
 		B15C1E34E6B5D8DA0A998279 /* Pods-CKGPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKGPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CKGPTests/Pods-CKGPTests.release.xcconfig"; sourceTree = "<group>"; };
-		EA004ADA8C0AA5B098606FF1 /* libPods-CKGPUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CKGPUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF590D48CDACB1D7912478EC /* libPods-CKGP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CKGP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05346A106523D23FD3E071B /* libPods-CKGP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CKGP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F243FE5BC75545DF315D7C70 /* Pods-CKGPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKGPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CKGPTests/Pods-CKGPTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC24B232CA2F00F8ADA82C23 /* Pods-CKGP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKGP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CKGP/Pods-CKGP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3828AF7D7E1CDAEF8F83C395 /* libPods-CKGP.a in Frameworks */,
+				A4DE756E3273B5FB66403A52 /* libPods-CKGP.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				651608E294DF3BC1B3ACCC68 /* libPods-CKGPTests.a in Frameworks */,
+				4FDD70045C2185A67A11983B /* libPods-CKGPTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76B19F6BCFD575A87A65E6F2 /* libPods-CKGPUITests.a in Frameworks */,
+				E3B0C7618D0A0ED3BAD25E5A /* libPods-CKGPUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +121,6 @@
 			children = (
 				A34A2AA81CE4308100631BAE /* checkedCell.swift */,
 				A31C931A1C866A6F007F6107 /* CheckViewController.swift */,
-				A3335B5F1DDD398600CFA5B7 /* postUserTest.swift */,
 				A3C723F51CBDB89900C7E489 /* AlreadyCheckedInViewController.swift */,
 				A3E4C1DE1CA20528003CBDE9 /* checkedPersonObject.swift */,
 				A3335B611DDD460100CFA5B7 /* newCheckedPerson.swift */,
@@ -206,9 +203,9 @@
 		A978E19282AF915D6FD634DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EF590D48CDACB1D7912478EC /* libPods-CKGP.a */,
-				4B91AEAD9766D454B8E5D8F4 /* libPods-CKGPTests.a */,
-				EA004ADA8C0AA5B098606FF1 /* libPods-CKGPUITests.a */,
+				D05346A106523D23FD3E071B /* libPods-CKGP.a */,
+				169A49FC7CF6DA0677DA6198 /* libPods-CKGPTests.a */,
+				0471554FC69F1B6874FBE9E2 /* libPods-CKGPUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -516,7 +513,6 @@
 				A34A2AA71CDFB4C100631BAE /* Request.swift in Sources */,
 				A3E4C1DF1CA20528003CBDE9 /* checkedPersonObject.swift in Sources */,
 				A31C931D1C866A80007F6107 /* RacesViewController.swift in Sources */,
-				A3335B601DDD398600CFA5B7 /* postUserTest.swift in Sources */,
 				A3335B621DDD460100CFA5B7 /* newCheckedPerson.swift in Sources */,
 				A3EFABA21C8118C000CBA48D /* AboutViewController.swift in Sources */,
 				A3EFABA01C8118C000CBA48D /* AppDelegate.swift in Sources */,
@@ -665,6 +661,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 5889U8W69N;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"\"${PODS_ROOT}/Headers/Public\"/**",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"/**",
+					"\"${PODS_ROOT}/Headers/Public/RestKit\"/**",
+					"\"${PODS_ROOT}/Headers/Public/SOCKit\"/**",
+					"\"${PODS_ROOT}/Headers/Public/TransitionKit\"/**",
+				);
 				INFOPLIST_FILE = CKGP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.CKGP;
@@ -682,6 +686,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 5889U8W69N;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"\"${PODS_ROOT}/Headers/Public\"/**",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"/**",
+					"\"${PODS_ROOT}/Headers/Public/RestKit\"/**",
+					"\"${PODS_ROOT}/Headers/Public/SOCKit\"/**",
+					"\"${PODS_ROOT}/Headers/Public/TransitionKit\"/**",
+				);
 				INFOPLIST_FILE = CKGP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.CKGP;

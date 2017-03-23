@@ -8,18 +8,18 @@
 
 import UIKit
 
-class AlreadyCheckedInViewController: UIViewController, UITableViewDelegate {
+class AlreadyCheckedInViewController: UIViewController, UITableViewDelegate, UISearchBarDelegate {
     var raceArr = [raceObject]()
     @IBAction func donePressed(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     func refresh() {
-        
         getRunners()
         print("refreshed table")
     }
     @IBOutlet var tableView: UITableView!
     
+    @IBOutlet var searchBar: UISearchBar!
     let refresher = UIRefreshControl()
     var runnersArr = [checkedPersonObject]()
     
@@ -51,7 +51,7 @@ class AlreadyCheckedInViewController: UIViewController, UITableViewDelegate {
         
         
         let dateFormatter = NSDateFormatter()
-        dateFormatter.dateStyle = NSDateFormatterStyle.MediumStyle
+        dateFormatter.dateStyle = NSDateFormatterStyle.ShortStyle
         //cell.date.adjustsFontSizeToFitWidth = true]
         cell.date.text = dateFormatter.stringFromDate(person.date)
         if races.count > 0 {
